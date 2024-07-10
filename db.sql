@@ -20,3 +20,8 @@ create table student_course (
     foreign key (studentId) references student(studentId),
     foreign key (courseCode) references courses(courseCode)
 );
+
+insert into courses (courseCode,title) values 
+("COMP202","DataStructur"),
+("COMP208","Automata"),
+("MATH202","ODE");
